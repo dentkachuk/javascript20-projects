@@ -9,17 +9,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <blockquote class="quote">
+    <blockquote class="quote" id="quote">
         <i class="fas fa-quote-left"></i>
-        <span class="quote__text" id="quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis corrupti velit blanditiis accusamus, omnis laboriosam officiis! Voluptatum voluptas, omnis repellendus non ullam cum libero iure, possimus placeat vero neque.</span>
-        <div class="quote__author">
-            John Doe
+        <span class="quote__text" id="quote-text">Loading...</span>
+        <div class="quote__author" id="quote-author">
+            
         </div>
         <div class="quote__actions">
-            <button id="twitter" class="twitter"><i class="fab fa-twitter"></i></button>
-            <button id="getNewQuote">Get New</button>
+            <button id="twitter" class="twitter" onclick="tweetQuote()"><i class="fab fa-twitter"></i></button>
+            <button id="getNewQuote" onclick="getQuote()">Get New</button>
         </div>
     </blockquote>
+
+    <div class="loader" id="loader"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
