@@ -49,6 +49,9 @@ h1 {
 .img__item {
   margin: 40px 0;
 }
+.img__item a {
+  display: block;
+}
 .img__item img {
   max-width: 100%;
 }
