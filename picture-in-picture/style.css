@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGJOt2mQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeut2mQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lemonada';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lemonada/v11/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGpOx2mQ.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper {
+  padding: 6px;
+  border-radius: 7px;
+  border: 2px solid #000;
+  box-shadow: inset 0 20px 5px -19px rgba(255, 255, 255, 0.7);
+}
+.button-wrapper button {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.6);
+  background: linear-gradient(to top, #696969, #575757);
+}
+.button-wrapper button:hover {
+  background: linear-gradient(to bottom, #696969, #575757);
+}
+.button-wrapper button:active {
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.6);
+}
