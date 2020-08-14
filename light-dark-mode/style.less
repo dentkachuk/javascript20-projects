@@ -63,7 +63,7 @@ nav {
   letter-spacing: 3px;
   padding: 25px;
   width: 100vw;
-  background: rgb(255 255 255 / 50%);
+  background: rgba(255, 255, 255, .5);
 }
 
 a {
@@ -72,6 +72,7 @@ a {
   text-decoration: none;
   border-bottom: 3px solid transparent;
   font-weight: bold;
+  transition: .3s;
 }
 
 a:hover,
@@ -120,6 +121,7 @@ button {
   border: 2px solid var(--primary-color);
   font-size: 15px;
   outline: none;
+  transition: .3s;
 }
 
 button:disabled {
@@ -160,7 +162,7 @@ button:hover:not(.outline) {
 .text-box {
   width: 40%;
   text-align: justify;
-  background: rgb(0 0 0 / 50%);
+  background: rgba(0, 0, 0, .5);
   color: var(--on-primary);
   border-radius: 10px;
   padding: 30px;
@@ -177,6 +179,7 @@ p {
   margin-right: 50px;
   cursor: pointer;
   color: var(--primary-color);
+  transition: .3s;
 }
 
 .fab:hover {
